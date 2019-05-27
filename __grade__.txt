@@ -239,17 +239,12 @@ Name: _c2, dtype: int64
 <BLANKLINE>
 
 >>> import os; print(os.popen('python3 q12.py').read())
-_c5a
-aaa    53
-bbb    82
-ccc    72
-ddd    98
-eee    55
-fff    94
-ggg    61
-hhh    80
-iii    86
-jjj    67
+_c1
+A    146
+B    134
+C     81
+D    112
+E    275
 Name: _c5b, dtype: int64
 <BLANKLINE>
 

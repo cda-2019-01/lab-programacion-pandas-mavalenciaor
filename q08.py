@@ -7,5 +7,8 @@ import numpy as np
 
 df = pd.read_csv('tbl0.tsv', delim_whitespace=True)
 aux = df.copy()
-aux['ano'] = str(aux['_c3']).split("-")[0].replace("0     ", "")
+anios = []
+for i in aux['_c3']:
+    anios.append(i.split("-")[0].replace("0     ", ""))
+aux['ano'] = anios
 print(aux)
